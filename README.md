@@ -7,7 +7,7 @@
     - Install git package
            `pkg install git`
     - Clone this repository.
-           `git clone https://github.com/LEGEND-LX/PYTHONBOT-V9.0.8.git`
+           `git clone https://github.com/DARK-LEGEND-PRO/PYTHONBOT-V9git`
     - Then Do
            `cd PYTHONBOT`
     - Run String Generator By
@@ -39,7 +39,7 @@
     - Any Other VPS.
     - No support for Termux Yet.
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LEGEND-LX/PYTHONBOT-V9.0.8/)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DARK-LEGEND-PRO/PYTHONBOT-V9/)
 
 
 ## Mandatory Vars
@@ -84,7 +84,7 @@ notifications in Update Channel.
 
 Copyright (C) 2021 LEGEND-LX
 
-Poject [PYTHONBOT](https://github.com/LEGEND-LX/PYTHONBOT-V9.0.8) is free software: you can redistribute it and/or modify
+Poject [PYTHONBOT](https://github.com/DARK-LEGEND-PRO/PYTHONBOT-V9) is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
