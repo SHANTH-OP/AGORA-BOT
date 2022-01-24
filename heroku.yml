@@ -1,0 +1,3 @@
+build: 
+  docker:
+      PYTHONBOT-V9.0.8: Dockerfile
