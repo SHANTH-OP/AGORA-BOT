@@ -1,6 +1,6 @@
 👇👇DEPLOY👇👇
 
-[PYTHON](https://github.com/LEGEND-LX/PYTHONBOT-V9.0.8)
+[PYTHON](https://github.com/DARK-LEGEND-PRO/PYTHONBOT-V9)
   <summary> <h2>Generate String Session</h2> </summary>
 
 - Termux
