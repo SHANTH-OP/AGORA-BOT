@@ -1,15 +1,15 @@
 👇👇DEPLOY👇👇
 
-[PYTHON](https://github.com/DARK-LEGEND-PRO/PYTHONBOT-V9)
+[PYTHON](https://github.com/SHANTH-OP/AGORA-USERBOT)
   <summary> <h2>Generate String Session</h2> </summary>
 
 - Termux
     - Install git package
            `pkg install git`
     - Clone this repository.
-           `git clone https://github.com/DARK-LEGEND-PRO/PYTHONBOT-V9git`
+           `git clone https://github.com/SHANTH-OP/AGORA-USERBOTgit`
     - Then Do
-           `cd PYTHONBOT`
+           `cd AGORA-USERBOT`
     - Run String Generator By
            `bash string.sh`
     - Then Fill The Required Details.
@@ -42,32 +42,12 @@
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DARK-LEGEND-PRO/PYTHONBOT-V9/)
 
 
-## Mandatory Vars
 
-- Some of the environment variables are mandatory.
-- These are listed below.
-    - `APP_ID`:   You can get this value from [here](https://my.telegram.org)
-    - `API_HASH`:   You can get this value from [here](https://my.telegram.org)
-    - `ENV`:   `ANYTHING`
-    - `PYTHON_STRING`:   You can get this value from running `python3 string_session.py` in termux after cloning this repo. Or just using [repl run](https://repl.it/@itzglegendvv/PYTHONBOT4#main.py)
-    - `LOG_GROUP`:   Make a Channel Or Group and get it's id.
-    - `DATABASE_URL`:   Make a database on elephant sql and paste the url.
-    - `DB_URI`:   Same as `DATABASE_URL`
-    - `BOT_TOKEN`:   Make a Bot from [Botfather](https://t.me/botfather) and paste the bot token here.
-    - `BOT_USERNAME`:   Paste the Username of bot that you made from [BotFather](https://t.me/botfather).
-- The userbot will not work without setting the mandatory vars.
 
-</details>
 
-<details>
-  <summary> <h4>OFFICIAL SUPPORT ✅</h4> </summary>
 
 ```
-Get help regarding setting up 
-your PYTHONBOT in our official 
-support Group and get updates
-notifications in Update Channel.
-```
+
 
 <a href="https://t.me/Python_Userbot_Support"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
 
