@@ -1,6 +1,6 @@
 👇👇DEPLOY👇👇
 
-[PYTHON](https://github.com/SHANTH-OP/AGORA-USERBOT)
+[AGORA](https://github.com/SHANTH-OP/AGORA-USERBOT)
   <summary> <h2>Generate String Session</h2> </summary>
 
 - Termux
