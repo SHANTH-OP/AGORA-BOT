@@ -12,14 +12,14 @@ PYTHONversion = "𝚅9.0.8"
 botversion = "𝚅9.0.8"
 
 os.system("pip install --upgrade pip")
-if Var.PYTHON_STRING:
-    session_name = str(Var.PYTHON_STRING)
+if Var.AGORA_STRING:
+    session_name = str(Var.AGORA_STRING)
     bot = TelegramClient(StringSession(session_name), Var.APP_ID, Var.API_HASH)
 else:
     session_name = "startup"
     bot = TelegramClient(session_name, Var.APP_ID, Var.API_HASH)
 
-DEVS = ["1938996006", "2082798662"]
+DEVS = ["5090542427"]
 CMD_LIST = {}
 # for later purposes
 CMD_HELP = {}
@@ -31,7 +31,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-PYTHON_ID = ["1938996006", 2082798662]
+PYTHON_ID = ["5090542427"]
 
 """ PPE initialization. """
 
