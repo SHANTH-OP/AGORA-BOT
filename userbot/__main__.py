@@ -24,7 +24,7 @@ async def add_bot(bot_token):
         bot.me = await bot.get_me()
         bot.uid = telethon.utils.get_peer_id(bot.me)
     except Exception as e:
-        print(f"PYTHON_STRING - {str(e)}")
+        print(f"AGORA_STRING - {str(e)}")
         sys.exit()
         
         
