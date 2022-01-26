@@ -22,11 +22,11 @@ if ENV:
         # This is required for the hash to torrent file functionality to work.
         HASH_TO_TORRENT_API = os.environ.get("HASH_TO_TORRENT_API", "https://example.com/torrent/{}");
         # This is required for the @telegraph functionality.
-        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "PYTHONBOT-V9.0.8")
+        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "AGORA-USERBOT")
         # Get a Free API Key from OCR.Space
         OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
         # Send .get_id in any group with all your administration bots (added)
-        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001169892177))
+        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001727108229)
         # TG API limit. An album can have atmost 10 media!
         FBAN_LOGGER_GROUP = os.environ.get("FBAN_LOGGER_GROUP", None)
         if FBAN_LOGGER_GROUP:
@@ -105,8 +105,8 @@ if ENV:
         # number of colums of buttons to be displayed in .legend command
         NO_OF_COLOUMS_DISPLAYED_IN_H_ME_CMD = int(os.environ.get("NO_OF_COLOUMS_DISPLAYED_IN_H_ME_CMD", 3))
         # emoji to be displayed  in help .legend
-        EMOJI_IN_HELP1 = os.environ.get("EMOJI_IN_HELP1", "🔱 ")
-        EMOJI_IN_HELP2 = os.environ.get("EMOJI_IN_HELP2", "🔱 ")
+        EMOJI_IN_HELP1 = os.environ.get("EMOJI_IN_HELP1", "👨‍🏫 ")
+        EMOJI_IN_HELP2 = os.environ.get("EMOJI_IN_HELP2", "👨‍🏫 ")
         # specify command handler that should be used for the plugins
         # this should be a valid "regex" pattern
         COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", r"\.")
@@ -142,12 +142,12 @@ if ENV:
         MONGO_URI = os.environ.get("MONGO_URI", None)
         #alive
         ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
-        AWAKE_PIC = os.environ.get("AWAKE_PIC", https://telegra.ph/file/310e8f7a06460d88dda55.jpg)
+        AWAKE_PIC = os.environ.get("AWAKE_PIC", https://te.legra.ph/file/ac9a96c42b73529c4300b.mp4)
         ALIVE_MSG = os.environ.get("ALIVE_MSG", None)
-        YOUR_GROUP = os.environ.get("YOUR_GROUP", None)
-        BOT_PIC = os.environ.get("BOT_PIC", None)
+        YOUR_GROUP = os.environ.get("YOUR_GROUP", https://t.me/agora_userbot))
+        BOT_PIC = os.environ.get("BOT_PIC", https://te.legra.ph/file/7b9ed20f49c5d9a016120.jpg)
         #auto bio
-        BIO_MSG = os.environ.get("BIO_MSG", None)
+        BIO_MSG = os.environ.get("BIO_MSG", 𝙸 𝙰𝙼 𝚂𝚃𝚈𝙻𝙸𝚂𝙷 𝙰𝙽𝙳 𝚃𝚁𝙴𝙽𝙳𝙸𝙽𝙶 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙱𝙰𝚂𝙴𝙳 𝙾𝙽 𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝙼𝙰𝙳𝙴 𝙱𝚈 𝙿𝚁𝙾𝙵𝙴𝚂𝚂𝙾𝚁 𝙰𝙶𝙾𝚁𝙰 𝙹𝙾𝙸𝙽 @AGORA_USERBOT)
         #Lydia API
         LYDIA_API = os.environ.get("LYDIA_API",None)
         PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", None)
@@ -161,7 +161,7 @@ if ENV:
         FORCE_SUB = os.environ.get("FORCE_SUB", None)
         FORCE_CHANNEL_UN = os.environ.get("FORCE_CHANNEL_UN", None)
         FORCE_CHANNEL_ID = int(os.environ.get("FORCE_CHANNEL_ID", False))
-        EXTRA_AGORABOT = os.environ.get("EXTRA_AGORABOT", -1001221881562)
+        EXTRA_AGORABOT = os.environ.get("EXTRA_AGORABOT", -1001727108229)
         PM_DATA = os.environ.get("PM_DATA", "ENABLE")
 
 else:
