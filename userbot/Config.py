@@ -12,7 +12,7 @@ if ENV:
         SCREEN_SHOT_LAYER_ACCESS_KEY = os.environ.get("SCREEN_SHOT_LAYER_ACCESS_KEY", None)
         # Send .get_id in any group to fill this value.
         SUDO_COMMAND_HAND_LER = os.environ.get("SUDO_COMMAND_HAND_LER", r"\,")
-        BL_CHAT = os.environ.get("BL_CHAT", "-1001344140905")
+        BL_CHAT = os.environ.get("BL_CHAT", "-1001727108229")
         # This is required for the plugins involving the file system.
         TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./userbot/DOWNLOADS/")
         # This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html
@@ -21,11 +21,11 @@ if ENV:
         # This is required for the hash to torrent file functionality to work.
         HASH_TO_TORRENT_API = os.environ.get("HASH_TO_TORRENT_API", "https://example.com/torrent/{}");
         # This is required for the @telegraph functionality.
-        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "PYTHONBOT")
+        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "AGORA-USERBOT")
         # Get a Free API Key from OCR.Space
         OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
         # Send .get_id in any group with all your administration bots (added)
-        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001169892177))
+        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001727108229))
         # TG API limit. An album can have atmost 10 media!
         FBAN_LOGGER_GROUP = os.environ.get("FBAN_LOGGER_GROUP", None)
         if FBAN_LOGGER_GROUP:
@@ -102,9 +102,9 @@ if ENV:
         # number of colums of buttons to be displayed in .op command
         NO_OF_COLOUMS_DISPLAYED_IN_H_ME_CMD = int(os.environ.get("NO_OF_COLOUMS_DISPLAYED_IN_H_ME_CMD", 2))
         # emoji to be displayed  in help .python
-        EMOJI_IN_HELP1 = os.environ.get("EMOJI_IN_HELP1", "⚜️ ")
-        EMOJI_IN_HELP2 = os.environ.get("EMOJI_IN_HELP2", "⚡ ")
-        ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "🔥")
+        EMOJI_IN_HELP1 = os.environ.get("EMOJI_IN_HELP1", "☘️ ")
+        EMOJI_IN_HELP2 = os.environ.get("EMOJI_IN_HELP2", "☘️ ")
+        ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "👨‍🏫")
         # specify command handler that should be used for the plugins
         # this should be a valid "regex" pattern
         COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", r"\.")
@@ -148,8 +148,8 @@ if ENV:
         ALIVE_MSG = os.environ.get("ALIVE_MSG", None)
         PM_MSG = os.environ.get("PM_MSG", None)
         INSTANT_BLOCK = os.environ.get("INSTANT_BLOCK", "DISABLE")
-        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@Python_Userbot_Support")
-        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@Python_Updata.")
+        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@AGORA_USERBOT")
+        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@AGORABOT_INFO.")
         BOT_PIC = os.environ.get("ALIVE_PIC", None)
         #auto bio
         BIO_MSG = os.environ.get("ALIVE_MSG", None)
@@ -157,7 +157,7 @@ if ENV:
         LYDIA_API = os.environ.get("LYDIA_API",None)
         PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL",None)
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/LEGEND-LX/PYTHONBOT-V9.0.8"
+            "UPSTREAM_REPO", "https://github.com/SHANTH-OP/AGORA-USERBOT"
         )
         AGORA_STRING = os.environ.get("AGORA_STRING", None)
         BOT_MODE = os.environ.get("BOT_MODE", "ON")
@@ -176,7 +176,7 @@ if ENV:
         if LOGGER_ID:
             LOGGER_ID = int(LOGGER_ID)
         FORCE_CHANNEL_ID = int(os.environ.get("FORCE_CHANNEL_ID", False))
-        EXTRA_PYTHONBOT = os.environ.get("EXTRA_PYTHONBOT", -1001221881562)
+        EXTRA_AGORABOT = os.environ.get("EXTRA_AGORABOT", -1001727108229)
         PM_DATA = os.environ.get("PM_DATA", "ENABLE")
 
 else:
