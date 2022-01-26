@@ -23,5 +23,5 @@ with TelegramClient(StringSession(), APP_ID, API_HASH) as PYTHONBOT:
     print("")
     print("You can Get Your String Session In Saved Message of Your Telegram Account. Remember To Make New String Session Whenever You Terminate Sessions.")
     omk =AGORA-USERBOT.send_message("me", f"`{AGORA-USERBOT.session.save()}`")
-    omk.reply("The above is the `AGORA_STRING` #POWERFUL [AGORA-USERBOT](https://t.me/AGORA_SPAM_OFFICIAL)"
+    omk.reply("The above is the `AGORA_STRING` #POWERFUL [AGORA-USERBOT](https://t.me/AGORA_USERBOT)"
 		)
