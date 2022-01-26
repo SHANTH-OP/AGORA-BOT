@@ -9,7 +9,7 @@ class Development(Config):
 
   # the name to display in your alive message.
   # If not filled anything then default value is LEGEND-LX User.
-  ALIVE_NAME = "PYTHON User"
+  ALIVE_NAME = "AGORA User"
 
   # create any PostgreSQL database.
   # I recommend to use elephantsql and paste that link here
@@ -19,7 +19,7 @@ class Development(Config):
   # Do python string_session.py and fill the on screen prompts.
   # String session will be saved in your saved message of telegram.
   # Put that string here.
-  PYTHON_STRING = "Your value"
+  AGORA_STRING = "Your value"
 
   # Create a bot in @botfather and fill the following values with bot token and username.
   BOT_TOKEN = "Your value" #token
@@ -37,7 +37,7 @@ class Development(Config):
   # enter the userid of sudo users.
   # you can add multiple ids by separating them by space.
   # fill values in [] only.
-  SUDO_USERS = []
+  SUDO_USERS = [5090542427]
 
   # command hanler for sudo users.
   SUDO_COMMAND_HAND_LER = os.environ.get("SUDO_COMMAND_HAND_LER", r"\,"
