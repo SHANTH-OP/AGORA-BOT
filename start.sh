@@ -4,7 +4,7 @@
 echo """
                                
 """
-rm -rf python_support_zone
-git clone https://github.com/LEGEND-LX/python_support_zone
-cd python_support_zone
+rm -rf AGORA-BOT
+git clone https://github.com/SHANTH-OP/AGORA-BOT
+cd AGORA-BOT
 python3 -m userbot
