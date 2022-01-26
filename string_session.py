@@ -15,7 +15,7 @@ print("""String Generator. ==> AGORABot. Get Your Api Id & Api Hash From my.tele
 APP_ID = int(input("Enter APP ID - "))
 API_HASH = input("Enter API HASH - ")
 
-with TelegramClient(StringSession(), APP_ID, API_HASH) as PYTHONBOT:
+with TelegramClient(StringSession(), APP_ID, API_HASH) as AGORA-USERBOT:
     print("")
     print("This is your STRING_SESSION. Please Keep It safe.")
     print("")
