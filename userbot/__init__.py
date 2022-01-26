@@ -8,7 +8,7 @@ from userbot.Config import Config
 from var import Var
 BOTLOG = True
 StartTime = time.time()
-PYTHONversion = "𝚅9.0.8"
+AGORAversion = "𝚅9.0.8"
 botversion = "𝚅9.0.8"
 
 os.system("pip install --upgrade pip")
@@ -31,7 +31,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-PYTHON_ID = ["5090542427"]
+AGORA_ID = ["5090542427"]
 
 """ PPE initialization. """
 
@@ -54,7 +54,7 @@ if bool(ENV):
     else:
         basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
                     level=INFO)
-    LOGS = getLogger("[Pythonẞø† 9.0.8]")
+    LOGS = getLogger("[AGORA-USERBOT]")
 
 try:
     if Config.HEROKU_API_KEY is not None or Config.HEROKU_APP_NAME is not None:
@@ -153,7 +153,7 @@ except:
     # Upstream Repo
     UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/LEGEND-LX/PYTHONUSERBOT.git")
+    "https://github.com/SHANTH-OP/AGORABOT.git")
 
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
