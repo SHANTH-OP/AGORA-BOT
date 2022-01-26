@@ -159,7 +159,7 @@ if ENV:
         UPSTREAM_REPO = os.environ.get(
             "UPSTREAM_REPO", "https://github.com/LEGEND-LX/PYTHONBOT-V9.0.8"
         )
-        AGORA_STRING = os.environ.get("PYTHON_STRING", None)
+        AGORA_STRING = os.environ.get("AGORA_STRING", None)
         BOT_MODE = os.environ.get("BOT_MODE", "ON")
         BOTLOG = False
         ABUSE = os.environ.get("ABUSE", None)
