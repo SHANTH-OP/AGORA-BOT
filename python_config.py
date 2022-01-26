@@ -152,16 +152,16 @@ if ENV:
         LYDIA_API = os.environ.get("LYDIA_API",None)
         PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", None)
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/LEGEND-LX/PYTHONBOT-V9.0.8"
+            "UPSTREAM_REPO", "https://github.com/SHANTH-OP/AGORA-USERBOT"
         )
-        PYTHON_STRING = os.environ.get("PYTHON_STRING", None)
+        AGORA_STRING = os.environ.get("AGORA_STRING", None)
         BOT_MODE = os.environ.get("BOT_MODE", "ON")
         BOT_TRIGGER = os.environ.get("BOT_TRIGGER", "^/")
         BOTMODE_LOG = int(os.environ.get("BOTMODE_LOG", False))
         FORCE_SUB = os.environ.get("FORCE_SUB", None)
         FORCE_CHANNEL_UN = os.environ.get("FORCE_CHANNEL_UN", None)
         FORCE_CHANNEL_ID = int(os.environ.get("FORCE_CHANNEL_ID", False))
-        EXTRA_PYTHONBOT = os.environ.get("EXTRA_PYTHONBOT", -1001221881562)
+        EXTRA_AGORABOT = os.environ.get("EXTRA_AGORABOT", -1001221881562)
         PM_DATA = os.environ.get("PM_DATA", "ENABLE")
 
 else:
